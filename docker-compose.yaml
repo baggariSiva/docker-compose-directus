@@ -38,7 +38,7 @@ services:
       DB_DATABASE: "directus"
       DB_USER: "directus"
       DB_PASSWORD: ${SOFTWARE_PASSWORD}
-      EMAIL_FROM: [DOMAIN]@vm.elestio.app
+      EMAIL_FROM: "[DOMAIN]@vm.elestio.app"
       EMAIL_TRANSPORT: "smtp"
       EMAIL_SMTP_HOST: "172.17.0.1"
       EMAIL_SMTP_PORT: 25
